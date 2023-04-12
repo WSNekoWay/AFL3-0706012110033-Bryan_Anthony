@@ -1,0 +1,17 @@
+//
+//  AFL3_0706012110033_Bryan_AnthonyApp.swift
+//  AFL3-0706012110033-Bryan_Anthony
+//
+//  Created by MacBook Pro on 12/04/23.
+//
+
+import SwiftUI
+
+@main
+struct AFL3_0706012110033_Bryan_AnthonyApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
