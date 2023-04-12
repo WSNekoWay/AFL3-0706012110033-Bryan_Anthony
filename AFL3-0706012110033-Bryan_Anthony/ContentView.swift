@@ -9,11 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, SwiftUI!")
-            .font(.title)
-            .fontWeight(.heavy)
+        VStack(alignment: .leading){
+            Text("Hello, SwiftUI!")
+                .font(.title)
+                .fontWeight(.heavy)
             .foregroundColor(Color.green)
+            HStack {
+                Text("Joshua Tree National Park")
+                    .font(.subheadline)
+                Spacer()
+                Text("California")
+                    .font(.subheadline)
+            }
         }
+        .padding()
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
