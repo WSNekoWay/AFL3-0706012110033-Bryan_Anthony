@@ -20,6 +20,7 @@
 		04725E0A29E65625006068E5 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04725E0929E65625006068E5 /* Landmark.swift */; };
 		04725E0C29E65754006068E5 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04725E0B29E65754006068E5 /* ModelData.swift */; };
 		04725E1129E65859006068E5 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04725E1029E65859006068E5 /* LandmarkRow.swift */; };
+		04725E1329E65D20006068E5 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04725E1229E65D20006068E5 /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		04725E0929E65625006068E5 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		04725E0B29E65754006068E5 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		04725E1029E65859006068E5 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		04725E1229E65D20006068E5 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				04725DDB29E649F3006068E5 /* ContentView.swift */,
 				04725E0329E6501C006068E5 /* CircleImage.swift */,
 				04725E1029E65859006068E5 /* LandmarkRow.swift */,
+				04725E1229E65D20006068E5 /* LandmarkList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				04725DDC29E649F3006068E5 /* ContentView.swift in Sources */,
 				04725E0C29E65754006068E5 /* ModelData.swift in Sources */,
 				04725E0629E650DD006068E5 /* MapView.swift in Sources */,
+				04725E1329E65D20006068E5 /* LandmarkList.swift in Sources */,
 				04725DDA29E649F3006068E5 /* AFL3_0706012110033_Bryan_AnthonyApp.swift in Sources */,
 				04725E0429E6501C006068E5 /* CircleImage.swift in Sources */,
 				04725E1129E65859006068E5 /* LandmarkRow.swift in Sources */,
