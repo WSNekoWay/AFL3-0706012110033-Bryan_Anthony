@@ -24,6 +24,7 @@
 		04725E1529E661B6006068E5 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04725E1429E661B6006068E5 /* LandmarkDetail.swift */; };
 		04725E1729E86636006068E5 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04725E1629E86636006068E5 /* FavoriteButton.swift */; };
 		04725E1B29E86ADC006068E5 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04725E1A29E86ADC006068E5 /* HexagonParameters.swift */; };
+		04725E1D29E86B97006068E5 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04725E1C29E86B97006068E5 /* BadgeBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		04725E1429E661B6006068E5 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		04725E1629E86636006068E5 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		04725E1A29E86ADC006068E5 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		04725E1C29E86B97006068E5 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				04725DDB29E649F3006068E5 /* ContentView.swift */,
 				04725E1929E8669D006068E5 /* Landmarks */,
 				04725E1829E8668D006068E5 /* Helpers */,
+				04725E1C29E86B97006068E5 /* BadgeBackground.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				04725E1B29E86ADC006068E5 /* HexagonParameters.swift in Sources */,
 				04725E1329E65D20006068E5 /* LandmarkList.swift in Sources */,
 				04725E1529E661B6006068E5 /* LandmarkDetail.swift in Sources */,
+				04725E1D29E86B97006068E5 /* BadgeBackground.swift in Sources */,
 				04725DDA29E649F3006068E5 /* AFL3_0706012110033_Bryan_AnthonyApp.swift in Sources */,
 				04725E0429E6501C006068E5 /* CircleImage.swift in Sources */,
 				04725E1129E65859006068E5 /* LandmarkRow.swift in Sources */,
