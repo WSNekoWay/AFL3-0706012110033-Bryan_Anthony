@@ -6,17 +6,24 @@
 //
 
 import SwiftUI
-//This struct give view of category home
+//This struct give view of category home with CategoryRow
 struct CategoryHome: View {
     @EnvironmentObject var modelData: ModelData
     
     var body: some View {
         NavigationView {
             List {
-                //This code take data from the modelData categories and it is sorted
+                modelData.features[0].image
+                    .resizable()
+                    .scaledToFill()
+                    .frame(height: 200)
+                    .clipped()
+                    .listRowInsets(EdgeInsets())
+
                 ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
-                Text(key)
-                    }
+                CategoryRow(categoryName: key, items: modelData.categories[key]!)
+                           }
+                .listRowInsets(EdgeInsets())
                 }
                 .navigationTitle("Featured")
         }
