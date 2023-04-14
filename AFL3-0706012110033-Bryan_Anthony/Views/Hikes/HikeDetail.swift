@@ -6,7 +6,7 @@ A view showing the details for a hike.
 */
 
 import SwiftUI
-
+//This struct show detailed data from hike with custom view from HikeGraph
 struct HikeDetail: View {
     let hike: Hike
     @State var dataToShow = \Hike.Observation.elevation

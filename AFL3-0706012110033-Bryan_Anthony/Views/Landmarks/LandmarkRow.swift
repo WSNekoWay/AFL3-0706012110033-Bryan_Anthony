@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//This struct is showing landmark data in a row
 struct LandmarkRow: View {
     var landmark: Landmark
 
@@ -18,7 +18,7 @@ struct LandmarkRow: View {
             Text(landmark.name)
 
             Spacer()
-            
+            //this add an image of star on the right with a custom color if it is true
             if landmark.isFavorite {
                 Image(systemName: "star.fill")
                     .foregroundColor(.yellow)

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//This struct make a view of hexagon with colorful gradient
 struct BadgeBackground: View {
     var body: some View {
         GeometryReader { geometry in

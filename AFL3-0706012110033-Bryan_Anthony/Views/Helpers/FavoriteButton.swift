@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-
+//this is the component button that used to toggle favorite
 struct FavoriteButton: View {
     @Binding var isSet: Bool
 

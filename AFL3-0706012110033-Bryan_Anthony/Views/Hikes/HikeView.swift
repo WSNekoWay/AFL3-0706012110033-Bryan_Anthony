@@ -6,7 +6,7 @@ A view displaying information about a hike, including an elevation graph.
 */
 
 import SwiftUI
-
+//This make a transition for the HikeDetail when show and hide
 extension AnyTransition {
     static var moveAndFade: AnyTransition {
         .asymmetric(
@@ -15,6 +15,7 @@ extension AnyTransition {
         )
     }
 }
+//This struct show you the hike data with toggleable button to show HikeDetail with an animation
 struct HikeView: View {
     var hike: Hike
     @State private var showDetail = false

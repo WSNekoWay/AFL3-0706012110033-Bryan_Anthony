@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//This struct is the main and it shows contentview
 @main
 struct AFL3_0706012110033_Bryan_AnthonyApp: App {
     @StateObject private var modelData = ModelData()

@@ -6,7 +6,7 @@
 //
 import SwiftUI
 import MapKit
-
+//this struct show you a map
 struct MapView: View {
     var coordinate: CLLocationCoordinate2D
     @State private var region = MKCoordinateRegion()

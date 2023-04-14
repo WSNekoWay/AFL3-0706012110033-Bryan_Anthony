@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//this struct make view of the BadgeBackground and BadgeSymbol become one and show us another beautfiul shape
 struct Badge: View {
     var badgeSymbols: some View {
             ForEach(0..<8) { index in

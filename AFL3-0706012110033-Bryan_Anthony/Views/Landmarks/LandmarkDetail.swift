@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//this struct show the detailed landmark data
 struct LandmarkDetail: View {
     @EnvironmentObject var modelData: ModelData
         var landmark: Landmark
@@ -29,6 +29,7 @@ struct LandmarkDetail: View {
                 HStack {
                     Text(landmark.name)
                         .font(.title)
+                    //this code can change variable isFavorite in the data using toggle
                     FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
                 }
 

@@ -7,7 +7,7 @@ The elevation, heart rate, and pace of a hike plotted on a graph.
 
 import SwiftUI
 
-
+//this give custom animation to the view
 extension Animation {
     static func ripple(index: Int) -> Animation {
         Animation.spring(dampingFraction: 0.5)
@@ -15,7 +15,7 @@ extension Animation {
             .delay(0.03 * Double(index))
     }
 }
-
+// this struct give view made from GraphCapsule based on the data from Hike
 struct HikeGraph: View {
     var hike: Hike
     var path: KeyPath<Hike.Observation, Range<Double>>

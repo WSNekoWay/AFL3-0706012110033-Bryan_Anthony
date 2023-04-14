@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//this struct show you an image with custom form
 struct CircleImage: View {
     var image: Image
 

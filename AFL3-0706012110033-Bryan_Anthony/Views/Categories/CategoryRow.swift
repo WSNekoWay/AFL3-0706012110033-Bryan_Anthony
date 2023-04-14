@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//This show all CategoryItem based on the category in one slideable row
 struct CategoryRow: View {
     var categoryName: String
     var items: [Landmark]

@@ -6,7 +6,7 @@ A single line in the graph.
 */
 
 import SwiftUI
-
+//This struct give view of a round-corner line shape
 struct GraphCapsule: View, Equatable {
     var index: Int
     var color: Color

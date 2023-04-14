@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//This struct make an item from Landmark data
 struct CategoryItem: View {
     var landmark: Landmark
 

@@ -5,7 +5,7 @@
 //  Created by MacBook Pro on 13/04/23.
 //
 import CoreGraphics
-
+//this stuct defining data that used to draw a hexagon shape
 struct HexagonParameters {
     struct Segment {
         let line: CGPoint
