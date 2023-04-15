@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		04382AB229EA6021001626FF /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04382AB129EA6021001626FF /* ProfileEditor.swift */; };
+		04382AB529EAE369001626FF /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04382AB429EAE369001626FF /* PageViewController.swift */; };
+		04382AB729EAE8D6001626FF /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04382AB629EAE8D6001626FF /* FeatureCard.swift */; };
+		04382AB929EAE930001626FF /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04382AB829EAE930001626FF /* PageView.swift */; };
 		04725DDA29E649F3006068E5 /* AFL3_0706012110033_Bryan_AnthonyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04725DD929E649F3006068E5 /* AFL3_0706012110033_Bryan_AnthonyApp.swift */; };
 		04725DDC29E649F3006068E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04725DDB29E649F3006068E5 /* ContentView.swift */; };
 		04725DDE29E649F4006068E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04725DDD29E649F4006068E5 /* Assets.xcassets */; };
@@ -63,6 +66,9 @@
 
 /* Begin PBXFileReference section */
 		04382AB129EA6021001626FF /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		04382AB429EAE369001626FF /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		04382AB629EAE8D6001626FF /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		04382AB829EAE930001626FF /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		04725DD629E649F3006068E5 /* AFL3-0706012110033-Bryan_Anthony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFL3-0706012110033-Bryan_Anthony.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04725DD929E649F3006068E5 /* AFL3_0706012110033_Bryan_AnthonyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110033_Bryan_AnthonyApp.swift; sourceTree = "<group>"; };
 		04725DDB29E649F3006068E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -127,6 +133,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04382AB329EAE33F001626FF /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				04382AB429EAE369001626FF /* PageViewController.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
 		04725DCD29E649F3006068E5 = {
 			isa = PBXGroup;
 			children = (
@@ -189,12 +203,15 @@
 			isa = PBXGroup;
 			children = (
 				04725DDB29E649F3006068E5 /* ContentView.swift */,
+				04382AB329EAE33F001626FF /* PageView */,
 				04A7FDAF29E900B100EE6869 /* Profiles */,
 				04A7FDA629E8E6CB00EE6869 /* Categories */,
 				04725E3329E870AC006068E5 /* Hikes */,
 				04725E1929E8669D006068E5 /* Landmarks */,
 				04725E2229E86E2F006068E5 /* Badges */,
 				04725E1829E8668D006068E5 /* Helpers */,
+				04382AB629EAE8D6001626FF /* FeatureCard.swift */,
+				04382AB829EAE930001626FF /* PageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -419,6 +436,7 @@
 				04A7FDAE29E9002600EE6869 /* Profile.swift in Sources */,
 				04725DDC29E649F3006068E5 /* ContentView.swift in Sources */,
 				04A7FDA829E8E70500EE6869 /* CategoryHome.swift in Sources */,
+				04382AB729EAE8D6001626FF /* FeatureCard.swift in Sources */,
 				04725E2429E86E8A006068E5 /* Badge.swift in Sources */,
 				04725E0C29E65754006068E5 /* ModelData.swift in Sources */,
 				04725E2129E86E1D006068E5 /* RotateBadge.swift in Sources */,
@@ -432,11 +450,13 @@
 				04A7FDB129E9035B00EE6869 /* ProfileHost.swift in Sources */,
 				04725E1B29E86ADC006068E5 /* HexagonParameters.swift in Sources */,
 				04725E1F29E86D72006068E5 /* BadgeSymbol.swift in Sources */,
+				04382AB929EAE930001626FF /* PageView.swift in Sources */,
 				04725E1329E65D20006068E5 /* LandmarkList.swift in Sources */,
 				04382AB229EA6021001626FF /* ProfileEditor.swift in Sources */,
 				04725E1529E661B6006068E5 /* LandmarkDetail.swift in Sources */,
 				04725E3229E87096006068E5 /* HikeGraph.swift in Sources */,
 				04725E1D29E86B97006068E5 /* BadgeBackground.swift in Sources */,
+				04382AB529EAE369001626FF /* PageViewController.swift in Sources */,
 				04725DDA29E649F3006068E5 /* AFL3_0706012110033_Bryan_AnthonyApp.swift in Sources */,
 				04A7FDB529E903A700EE6869 /* HikeBadge.swift in Sources */,
 				04725E2E29E87082006068E5 /* GraphCapsule.swift in Sources */,
