@@ -11,6 +11,7 @@
 		04382AB529EAE369001626FF /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04382AB429EAE369001626FF /* PageViewController.swift */; };
 		04382AB729EAE8D6001626FF /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04382AB629EAE8D6001626FF /* FeatureCard.swift */; };
 		04382AB929EAE930001626FF /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04382AB829EAE930001626FF /* PageView.swift */; };
+		04382ABB29EAF40A001626FF /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04382ABA29EAF40A001626FF /* PageControl.swift */; };
 		04725DDA29E649F3006068E5 /* AFL3_0706012110033_Bryan_AnthonyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04725DD929E649F3006068E5 /* AFL3_0706012110033_Bryan_AnthonyApp.swift */; };
 		04725DDC29E649F3006068E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04725DDB29E649F3006068E5 /* ContentView.swift */; };
 		04725DDE29E649F4006068E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04725DDD29E649F4006068E5 /* Assets.xcassets */; };
@@ -69,6 +70,7 @@
 		04382AB429EAE369001626FF /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		04382AB629EAE8D6001626FF /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		04382AB829EAE930001626FF /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		04382ABA29EAF40A001626FF /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		04725DD629E649F3006068E5 /* AFL3-0706012110033-Bryan_Anthony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFL3-0706012110033-Bryan_Anthony.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04725DD929E649F3006068E5 /* AFL3_0706012110033_Bryan_AnthonyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110033_Bryan_AnthonyApp.swift; sourceTree = "<group>"; };
 		04725DDB29E649F3006068E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				04382AB829EAE930001626FF /* PageView.swift */,
 				04382AB629EAE8D6001626FF /* FeatureCard.swift */,
 				04382AB429EAE369001626FF /* PageViewController.swift */,
+				04382ABA29EAF40A001626FF /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -442,6 +445,7 @@
 				04725E2129E86E1D006068E5 /* RotateBadge.swift in Sources */,
 				04725E0629E650DD006068E5 /* MapView.swift in Sources */,
 				04725E2C29E8707F006068E5 /* HikeView.swift in Sources */,
+				04382ABB29EAF40A001626FF /* PageControl.swift in Sources */,
 				04725E1729E86636006068E5 /* FavoriteButton.swift in Sources */,
 				04A7FDAC29E8E91300EE6869 /* CategoryItem.swift in Sources */,
 				04725E3029E8708B006068E5 /* HikeDetail.swift in Sources */,
