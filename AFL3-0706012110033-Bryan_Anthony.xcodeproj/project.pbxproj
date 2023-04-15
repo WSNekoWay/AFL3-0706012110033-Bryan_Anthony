@@ -136,6 +136,8 @@
 		04382AB329EAE33F001626FF /* PageView */ = {
 			isa = PBXGroup;
 			children = (
+				04382AB829EAE930001626FF /* PageView.swift */,
+				04382AB629EAE8D6001626FF /* FeatureCard.swift */,
 				04382AB429EAE369001626FF /* PageViewController.swift */,
 			);
 			path = PageView;
@@ -210,8 +212,6 @@
 				04725E1929E8669D006068E5 /* Landmarks */,
 				04725E2229E86E2F006068E5 /* Badges */,
 				04725E1829E8668D006068E5 /* Helpers */,
-				04382AB629EAE8D6001626FF /* FeatureCard.swift */,
-				04382AB829EAE930001626FF /* PageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
