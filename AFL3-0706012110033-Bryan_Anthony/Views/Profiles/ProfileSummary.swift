@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SwiftUI
 
 struct ProfileSummary: View {
     @EnvironmentObject var modelData: ModelData

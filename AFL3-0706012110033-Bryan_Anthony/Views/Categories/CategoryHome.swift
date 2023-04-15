@@ -7,6 +7,7 @@
 
 import SwiftUI
 //This struct give view of category home with CategoryRow
+
 struct CategoryHome: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showingProfile = false
