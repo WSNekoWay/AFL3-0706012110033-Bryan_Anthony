@@ -6,35 +6,74 @@
 //
 
 import SwiftUI
-//This struct give view list of LandmarkRow with some logic inside it
+//this show landmark list using the landmark row, with some rules where if it showed in mac application, the row will showup on the side bar while the detail of selected landmark in the list will show up on the right if there is a sidebar toggle on
 struct LandmarkList: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showFavoritesOnly = false
-    //This var help the system to filter favorite landmarks from the list
+    @State private var filter = FilterCategory.all
+    @State private var selectedLandmark: Landmark?
+
+    enum FilterCategory: String, CaseIterable, Identifiable {
+        case all = "All"
+        case lakes = "Lakes"
+        case rivers = "Rivers"
+        case mountains = "Mountains"
+
+        var id: FilterCategory { self }
+    }
+
     var filteredLandmarks: [Landmark] {
         modelData.landmarks.filter { landmark in
             (!showFavoritesOnly || landmark.isFavorite)
+                && (filter == .all || filter.rawValue == landmark.category.rawValue)
         }
+    }
+
+    var title: String {
+        let title = filter == .all ? "Landmarks" : filter.rawValue
+        return showFavoritesOnly ? "Favorite \(title)" : title
+    }
+
+    var index: Int? {
+        modelData.landmarks.firstIndex(where: { $0.id == selectedLandmark?.id })
     }
 
     var body: some View {
         NavigationView {
-            List {
-                //This toggle is used to filter and not filter the favorite landmarks in the list
-                Toggle(isOn: $showFavoritesOnly) {
-                    Text("Favorites only")
-                }
-                //It is used to call all the landmarkrow data that has been filtered and saved in var filteredLandmarks
+            List(selection: $selectedLandmark) {
                 ForEach(filteredLandmarks) { landmark in
                     NavigationLink {
                         LandmarkDetail(landmark: landmark)
                     } label: {
                         LandmarkRow(landmark: landmark)
                     }
+                    .tag(landmark)
                 }
             }
-            .navigationTitle("Landmarks")
+            .navigationTitle(title)
+            .frame(minWidth: 300)
+            .toolbar {
+                ToolbarItem {
+                    Menu {
+                        Picker("Category", selection: $filter) {
+                            ForEach(FilterCategory.allCases) { category in
+                                Text(category.rawValue).tag(category)
+                            }
+                        }
+                        .pickerStyle(.inline)
+
+                        Toggle(isOn: $showFavoritesOnly) {
+                            Label("Favorites only", systemImage: "star.fill")
+                        }
+                    } label: {
+                        Label("Filter", systemImage: "slider.horizontal.3")
+                    }
+                }
+            }
+
+            Text("Select a Landmark")
         }
+        .focusedValue(\.selectedLandmark, $modelData.landmarks[index ?? 0])
     }
 }
 

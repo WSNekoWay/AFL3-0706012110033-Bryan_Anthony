@@ -7,11 +7,11 @@
 		<key>AFL3-0706012110033-Bryan_Anthony.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>WatchLandmarks Watch App.xcscheme_^#shared#^_</key>
+		<key>MacLandmarks.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
@@ -35,6 +35,16 @@
 			<true/>
 		</dict>
 		<key>04382ADE29EAF7F2001626FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>043BD92B29EB10DA00D54C4F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>043BD93529EB10DA00D54C4F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
