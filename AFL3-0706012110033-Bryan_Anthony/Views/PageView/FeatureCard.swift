@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//struct for feature card
 struct FeatureCard: View {
     var landmark: Landmark
 

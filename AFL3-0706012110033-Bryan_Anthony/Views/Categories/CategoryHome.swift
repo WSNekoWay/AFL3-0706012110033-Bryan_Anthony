@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//this is to show the list of category
 struct CategoryHome: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showingProfile = false

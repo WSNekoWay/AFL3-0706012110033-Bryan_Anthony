@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0427780829FAAFF30004DC7E /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BDA3229EE25EF00D54C4F /* LandmarkCommands.swift */; };
 		04382AB229EA6021001626FF /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04382AB129EA6021001626FF /* ProfileEditor.swift */; };
 		04382AB529EAE369001626FF /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04382AB429EAE369001626FF /* PageViewController.swift */; };
 		04382AB729EAE8D6001626FF /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04382AB629EAE8D6001626FF /* FeatureCard.swift */; };
@@ -563,6 +564,7 @@
 			files = (
 				04A7FDAA29E8E89700EE6869 /* CategoryRow.swift in Sources */,
 				04A7FDAE29E9002600EE6869 /* Profile.swift in Sources */,
+				0427780829FAAFF30004DC7E /* LandmarkCommands.swift in Sources */,
 				04725DDC29E649F3006068E5 /* ContentView.swift in Sources */,
 				04A7FDA829E8E70500EE6869 /* CategoryHome.swift in Sources */,
 				04382AB729EAE8D6001626FF /* FeatureCard.swift in Sources */,

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-
+//show the feature card which can slide and has a number under it
 struct PageView<Page: View>: View {
     var pages: [Page]
     @State private var currentPage = 0

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//this show profile host where it has button to show summary or edit
 struct ProfileHost: View {
     @Environment(\.editMode) var editMode
     @EnvironmentObject var modelData: ModelData

@@ -7,7 +7,7 @@
 
 import SwiftUI
 import UIKit
-
+//show the page number for pageviewcontroller
 struct PageControl: UIViewRepresentable {
     var numberOfPages: Int
     @Binding var currentPage: Int

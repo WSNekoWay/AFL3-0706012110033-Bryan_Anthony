@@ -7,7 +7,7 @@
 
 import SwiftUI
 import UIKit
-
+//slideable feature card
 struct PageViewController<Page: View>: UIViewControllerRepresentable {
     var pages: [Page]
     @Binding var currentPage: Int
